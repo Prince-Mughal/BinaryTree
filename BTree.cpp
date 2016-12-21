@@ -12,10 +12,10 @@ using namespace std;
 
 struct NODE{
     int data;
-    NODE* leftChild;
-    NODE* rightChild;};
+    NODE* leftChild;  /* Left Subtree */
+    NODE* rightChild;};  /* Right Subtree */
 
-
+/* Create New Node */
 NODE* getNewNode(const int& iData){
     NODE* newNode = new NODE;
     if(newNode == NULL){
