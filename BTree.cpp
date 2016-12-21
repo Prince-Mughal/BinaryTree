@@ -1,3 +1,11 @@
+/*
+.  #GCT
+.  @PrinceMughal_ 
+.  #LinuxC 
+.   Date[DD-MM-YYYY] 22-12-2016
+.   Time 01:02 am THUR
+*/
+
 #include <iostream>
 #include <cstdlib> /* exit() */
 using namespace std;
@@ -35,7 +43,7 @@ void insertNodeHandler(NODE** iNode,const int& iData){
         insertNodeHandler(&((*iNode)->rightChild),iData);}
   /* Display Warning when data is duplicate */
     else{
-        cerr<<"Warning: Redundance has been occured."<<endl;
+        cerr<<"Warning: Replication has been occured."<<endl;
         delete newNode;}
 }
 
